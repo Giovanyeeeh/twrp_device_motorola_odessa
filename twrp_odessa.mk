@@ -18,11 +18,11 @@
 PRODUCT_RELEASE_NAME := odessa
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := odessa
-PRODUCT_NAME := omni_$(PRODUCT_DEVICE)
+PRODUCT_NAME := twrp_$(PRODUCT_DEVICE)
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(9) plus
 PRODUCT_MANUFACTURER := motorola

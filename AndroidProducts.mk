@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_odessa.mk
+    $(LOCAL_DIR)/twrp_odessa.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_odessa-user \
-    omni_odessa-userdebug \
-    omni_odessa-eng
+    twrp_odessa-user \
+    twrp_odessa-userdebug \
+    twrp_odessa-eng
