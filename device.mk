@@ -42,9 +42,6 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier
 
-PRODUCT_PACKAGES += \
-    bootctrl.$(PRODUCT_PLATFORM) \
-    update_engine_sideload
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
